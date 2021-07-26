@@ -50,6 +50,7 @@
 		B0625BF626A1C18000EE5BF6 /* NotebarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebarUITests.swift; sourceTree = "<group>"; };
 		B0625BF826A1C18000EE5BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0B2DB3126AF3306007AAE34 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		B0B2DB3326AF38D2007AAE34 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B0C38DF926AAF8A5007EEDF9 /* NotebarWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebarWindow.swift; sourceTree = "<group>"; };
 		B0F491DB26A1C50C00BFBF66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +83,7 @@
 		B0625BCC26A1C16800EE5BF6 = {
 			isa = PBXGroup;
 			children = (
+				B0B2DB3326AF38D2007AAE34 /* README.md */,
 				B0625BD726A1C16800EE5BF6 /* Notebar */,
 				B0625BEA26A1C18000EE5BF6 /* NotebarTests */,
 				B0625BF526A1C18000EE5BF6 /* NotebarUITests */,
