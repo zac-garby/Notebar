@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct NotebarApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Settings{
+            EmptyView()
         }
     }
 }
