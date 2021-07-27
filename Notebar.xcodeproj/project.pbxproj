@@ -16,6 +16,7 @@
 		B0B2DB3226AF3306007AAE34 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B2DB3126AF3306007AAE34 /* EventMonitor.swift */; };
 		B0B2DB7126AF3B54007AAE34 /* Notebar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0B2DB6F26AF3B54007AAE34 /* Notebar.xcdatamodeld */; };
 		B0C38DFA26AAF8A5007EEDF9 /* NotebarWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C38DF926AAF8A5007EEDF9 /* NotebarWindow.swift */; };
+		B0E1EE6C26B03DDD006562C1 /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1EE6B26B03DDD006562C1 /* BorderView.swift */; };
 		B0F491DC26A1C50C00BFBF66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F491DB26A1C50C00BFBF66 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		B0B2DB3326AF38D2007AAE34 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B0B2DB7026AF3B54007AAE34 /* Notebar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notebar.xcdatamodel; sourceTree = "<group>"; };
 		B0C38DF926AAF8A5007EEDF9 /* NotebarWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebarWindow.swift; sourceTree = "<group>"; };
+		B0E1EE6B26B03DDD006562C1 /* BorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
 		B0F491DB26A1C50C00BFBF66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 				B0625BD826A1C16800EE5BF6 /* NotebarApp.swift */,
 				B0625BDA26A1C16800EE5BF6 /* ContentView.swift */,
 				B0F491DB26A1C50C00BFBF66 /* AppDelegate.swift */,
+				B0E1EE6B26B03DDD006562C1 /* BorderView.swift */,
 				B0B2DB3126AF3306007AAE34 /* EventMonitor.swift */,
 				B0C38DF926AAF8A5007EEDF9 /* NotebarWindow.swift */,
 				B0B2DB6F26AF3B54007AAE34 /* Notebar.xcdatamodeld */,
@@ -280,6 +283,7 @@
 				B0C38DFA26AAF8A5007EEDF9 /* NotebarWindow.swift in Sources */,
 				B0B2DB7126AF3B54007AAE34 /* Notebar.xcdatamodeld in Sources */,
 				B0625BDB26A1C16800EE5BF6 /* ContentView.swift in Sources */,
+				B0E1EE6C26B03DDD006562C1 /* BorderView.swift in Sources */,
 				B0625BD926A1C16800EE5BF6 /* NotebarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

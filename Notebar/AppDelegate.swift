@@ -83,7 +83,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             
             let contentView = ContentView(content: "hello, world", pageTitle: "Todo")
                 .environment(\.managedObjectContext, persistentContainer.viewContext)
+            
             let view = NSHostingView(rootView: contentView)
+            view.addSubview(BorderView(frame: view.frame))
             window?.contentView = view
             
             window?.makeKeyAndOrderFront(self)

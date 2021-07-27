@@ -30,7 +30,7 @@ struct ContentView: View {
                 Button(action: {}) {
                     Image(systemName: "chevron.right.square.fill")
                 }.frame(width: nil).buttonStyle(BorderlessButtonStyle())
-            }.padding(3.0).background(Color(hue: 49.0 / 360.0, saturation: 0.23, brightness: 0.4))
+            }.padding(5.0).background(Color(hue: 49.0 / 360.0, saturation: 0.23, brightness: 0.4))
             Divider()
             TextEditor(text: $content)
                 .padding(6.0)
@@ -49,8 +49,8 @@ struct ContentView: View {
                 Button(action: {}) {
                     Image(systemName: "plus.app.fill")
                 }.buttonStyle(BorderlessButtonStyle())
-            }.padding(3.0).background(Color(hue: 49.0 / 360.0, saturation: 0.23, brightness: 0.4))
-        }
+            }.padding(5.0).background(Color(hue: 49.0 / 360.0, saturation: 0.23, brightness: 0.4))
+        }.cornerRadius(8.0)
     }
 }
 

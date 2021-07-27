@@ -25,6 +25,8 @@ class NotebarWindow: NSPanel {
             isMovable = false
             isReleasedWhenClosed = false
             hidesOnDeactivate = false
+            isOpaque = false
+            backgroundColor = .clear
         } else {
             print("this shouldn't happen")
             exit(1)
