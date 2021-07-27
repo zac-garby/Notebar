@@ -6,10 +6,16 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct ContentView: View {
     @State public var content: String
     @State public var pageTitle: String
+    
+    @Environment(\.managedObjectContext) private var viewContext
+    @FetchRequest(sortDescriptors: [NSSortDescriptor(keyPath: \Page.index, ascending: true)],
+                  animation: .default)
+    private var items: FetchedResults<Page>
     
     var body: some View {
         VStack(alignment: .leading, spacing: 0.0) {
