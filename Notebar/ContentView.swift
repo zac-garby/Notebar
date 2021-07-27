@@ -21,15 +21,15 @@ struct ContentView: View {
         VStack(alignment: .leading, spacing: 0.0) {
             HStack {
                 Button(action: {}) {
-                    Image(systemName: "chevron.left")
-                }
+                    Image(systemName: "chevron.left.square.fill")
+                }.buttonStyle(BorderlessButtonStyle())
                 Spacer()
                 Text("Todo")
                     .font(.title3)
                 Spacer()
                 Button(action: {}) {
-                    Image(systemName: "chevron.right")
-                }
+                    Image(systemName: "chevron.right.square.fill")
+                }.frame(width: nil).buttonStyle(BorderlessButtonStyle())
             }.padding(3.0).background(Color(hue: 49.0 / 360.0, saturation: 0.23, brightness: 0.4))
             Divider()
             TextEditor(text: $content)
@@ -38,6 +38,18 @@ struct ContentView: View {
                 .background(Color(hue: 49.0 / 360.0, saturation: 0.23, brightness: 1.0))
                 .foregroundColor(Color(hue: 49.0 / 360.0, saturation: 0.23, brightness: 0.19))
             Divider()
+            HStack(alignment: .center) {
+                Button(action: {}) {
+                    Image(systemName: "trash.fill")
+                }.buttonStyle(BorderlessButtonStyle())
+                Button(action: {}) {
+                    Image(systemName: "gear")
+                }.buttonStyle(BorderlessButtonStyle())
+                Spacer()
+                Button(action: {}) {
+                    Image(systemName: "plus.app.fill")
+                }.buttonStyle(BorderlessButtonStyle())
+            }.padding(3.0).background(Color(hue: 49.0 / 360.0, saturation: 0.23, brightness: 0.4))
         }
     }
 }
